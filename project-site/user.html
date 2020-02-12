@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Gelasio|Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="CSS/user.css">		
+    <link rel="icon" href="favicon.ico">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<title>User Profile</title>
+</head>
+<body>
+<div class="top-container">
+    <section id="title">
+   <!--
+    <h1 class="first">PES</h1>
+-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">The Project Network</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <!--<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav ml-auto" >
+        <li class="nav-item">
+            <a class="nav-link" href="">My Profile</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav ml-auto" >
+    	<li class="nav-item">
+            <a class="nav-link" href="">Edit Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Logout</a>
+         </li>
+        </ul>
+    </div>
+</li>
+        <li class="nav-item">
+            <a class="nav-link" href="sign-up.html">Sign-up</a>
+        </li>-->
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="login.html">
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <!--<li class="nav-item">
+        <a class="nav-link" href="sign-up.html">Sign-up</a>
+      </li>-->
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact Us</a>
+      </li>
+
+      <li class="nav-item dropdown multi-level-dropdown">
+        <a href="#" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle w-100">My Profile</a>
+        <ul class="dropdown-menu mt-2 rounded-0 primary-color">
+        	 <li class="dropdown-item dropdown-submenu">
+            <a href="#" data-toggle="dropdown" class="nav-link">Edit Profile </a>
+        </li>
+          <li class="dropdown-item dropdown-submenu">
+            <a href="#" data-toggle="dropdown" class="nav-link ">Log out </a>
+        </li>
+    </ul>
+</li>
+      <li class="nav-item">
+            <a class="btn btn-outline-primary btn-md" href="#" role="button">Initiate Project</a>
+        </li>
+      
+      <!--<li class="nav-item dropdown multi-level-dropdown">
+        <a href="#" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle w-100">My Profile</a>
+        <ul class="dropdown-menu mt-2 rounded-0 primary-color border-0 z-depth-1">
+          <!--<li class="dropdown-item dropdown-submenu p-0">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Edit Profile </a>
+            <ul class="dropdown-menu ml-2 rounded-0 primary-color border-0 z-depth-1">
+              <li class="dropdown-item p-0">
+                <a href="#" class="text-white w-100">Hey</a>
+              </li>
+              <li class="dropdown-item p-0">
+                <a href="#" class="text-white w-100">Hi</a>
+              </li>
+              <li class="dropdown-item dropdown-submenu p-0">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Logout </a>
+                <ul class="dropdown-menu mr-2 rounded-0 primary-color border-0 z-depth-1 r-100 ">
+                  <li class="dropdown-item p-0">
+                    <a href="#" class="text-white w-100">Some</a>
+                  </li>
+                  <li class="dropdown-item p-0">
+                    <a href="#" class="text-white w-100">Text</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>-
+          <li class="dropdown-item dropdown-submenu">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Edit Profile </a>
+        </li>
+          <li class="dropdown-item dropdown-submenu">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Log out </a>
+        </li>
+    
+
+            <!--<ul class="dropdown-menu mr-2 rounded-0  primary-color border-0 z-depth-1 r-100 ">
+              <li class="dropdown-item p-0">
+                <a href="#" class="text-white w-100">How</a>
+              </li>
+              <li class="dropdown-item p-0">
+                <a href="#" class="text-white w-100">are</a>
+              </li>
+              <li class="dropdown-item p-0">
+                <a href="#" class="text-white w-100">you </a>
+              </li>
+            </ul>
+           <li class="nav-item">
+            <a class="btn btn-outline-primary btn-md" href="#" role="button">Initiate Project</a>
+        </li>
+        </ul>
+    </li>-->
+    <!-- Links -->
+    <form class="form-inline">
+      <div class="md-form my-0 search-bar">
+        <input class="form-control ml-auto" type="text" placeholder="Search" aria-label="Search">
+      </div>
+    </form>
+  </div>
+  </nav>
+  </section>
+ </div>
+</ul>
+</div>
+</nav>
+</section>
+</div>
+
+
+ 	
+ 	<div class="top-container">
+<!--
+ 	<section id="login">
+  	<a class="btn btn-outline-primary btn-md" href="#" role="button">Initiate Project</a>
+
+  	<a class="btn btn-outline-primary btn-md" href="#" role="button">Contribute</a>
+  	
+  </section>
+  -->
+	</div>
+
+	<div class="container-fluid profile-main">
+		<div class="container-fluid profile-header">
+			<div class="user-detail">
+				<div class="user-image">
+					<img src="images/beer.png" class="img-thumbnail">
+				</div>
+				<div class="user-data">
+					<h2>Siva Krishna</h2>
+					<!--<span class="post-label">Manager</span>
+					<span class="post-label">Speaker</span>
+					<span class="post-label">AMA</span>
+					<p>Founder and CEO at <strong>NewSpot</strong><br>
+					<i class="fa fa-map-marker" aria-hidden="true"></i>  Boston, MA, United States
+					</p>-->
+				</div>
+				<div class="social-icons">
+					<i class="fa fa-github"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-linkedin"></i>
+					<i class="fa fa-envelope"></i>
+					<i class="fa fa-instagram"></i>
+					<!--<a href="#" type="button" class="msg-btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>Send Message</a>-->
+				</div>
+			</div>
+			<div class="tab-panel-main">
+				<ul class="tabs">
+					<li class="tab-link current" data-tab="Basic-detail">Basic Detail</li>
+					<li class="tab-link" data-tab="Edu-detail">Courses and Achievements</li>
+					<li class="tab-link" data-tab="Portfolio">My Projects</li>
+				</ul>
+				<div id="Basic-detail" class="tab-content current">
+					<div class="skill-box">
+					  <ul>
+						<li><strong><h5>My Core Skills:</h5></strong></li>
+						<li>MARKETING<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li>ENTERPRENEURSHIP<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li>PUBLIC SPEAKING<i class="fa fa-star" aria-hidden="true"></i></li>
+					  </ul>		
+					</div>
+					
+					<div class="bio-box">
+						<div class="heading">
+							<h4>Professional Bio
+							<label></label></h4>
+						</div>
+						<div class="desc">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+						</div></p>
+					</div>
+					<div class="detail-box">
+						<p><h5>Detail</h5></p>
+						<ul class="ul-first">
+							<li>Birth date</li>
+							<li>City</li>
+							<li>Country</li>
+							<li>Contact No</li>
+						</ul>
+						<ul class="ul-second">
+							<li>8 March 1997</li>
+							<li>Jamanagar</li>
+							<li>Uttar Pradesh</li>
+							<li>9900990087</li>
+						</ul>
+					</div>
+				</div>
+		
+
+				<div id="Edu-detail" class="tab-content">
+					<!--<div class="Edu-box-main">
+						 <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</h2>
+						 <div class="Edu-box">
+						 	<h5><span>Graphic designer</span> <br>
+						 		2005 - 2007 | Infoway Corporation</h5>
+						 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						 </div>
+						 <div class="Edu-box">
+						 	<h5><span>Web designer</span> <br>
+						 		2007 - 2009 | Light Corporation</h5>
+						 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						 </div>
+					</div>-->
+
+				</div>
+				<div id="Portfolio" class="tab-content">
+					<!--<div class="portfolio-box">
+						<div class="portfolio-img-box">
+							<h3>Web Design</h3>
+							<img src="http://nicesnippets.com/demo/up-web-design.jpg">
+						</div>
+						<div class="portfolio-img-box">
+							<h3>Web development</h3>
+							<img src="http://nicesnippets.com/demo/up-web-development.png">
+						</div>
+						<div class="portfolio-img-box">
+							<h3>SEO</h3>
+							<img src="http://nicesnippets.com/demo/up-seo.jpg">
+						</div>
+					</div>-->
+					<br>
+					<div class="container-fluid">
+       <div class="row">
+    <div class="col-6 col-md-4">
+    <img src="images/computer.png" class="img-thumbnail" alt="Project1">
+    <p class="text">Project 1</p>
+  </div>
+    <div class="col-6 col-md-4">
+      <img src="images/edit.png" class="img-thumbnail" alt="Project2">
+       <p class="text"> Project 2</p>
+
+    </div>
+    <div class="col-6 col-md-4">
+      <img src="images/circuit.png" class="img-thumbnail" alt="Project3">
+       <p class="text">Project 3</p>
+    </div>
+  </div>
+</div>
+  
+  <!--<div class="row">
+    <div class="col-6 col-md-4">
+      <img src="images/computer.png" class="img-thumbnail" alt="comp">
+       <p class="text">Computer</p>
+    </div>
+    <div class="col-6 col-md-4">
+      <img src="images/web.png" class="img-thumbnail" alt="web">
+       <p class="text">Browser</p>
+    </div>
+    <div class="col-6 col-md-4">
+      <img src="images/flower.png" class="img-thumbnail" alt="flower">
+       <p class="text">Flower</p>
+    </div>
+  </div>
+</div>-->
+  
+
+				</div>
+			</div>
+		</div>
+		
+		<div style="clear: both;"></div>
+		
+	</div>
+<div id="contact" class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.appbrewery.co/">GitHub</a>
+  <p class="last">© 2020 The Project-Net.</p>
+</div>
+
+<script type="text/javascript">
+	
+$('.multi-level-dropdown .dropdown-submenu > a').on("mouseenter", function(e) {
+    var submenu = $(this);
+    $('.multi-level-dropdown .dropdown-submenu .dropdown-menu').removeClass('show');
+    submenu.next('.dropdown-menu').addClass('show');
+    e.stopPropagation();
+  });
+
+  $('.multi-level-dropdown .dropdown').on("hidden.bs.dropdown", function() {
+    // hide any open menus when parent closes
+    $('.multi-level-dropdown .dropdown-menu.show').removeClass('show');
+  });
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('ul.tabs li').click(function(){
+			var tab_id = $(this).attr('data-tab');
+
+			$('ul.tabs li').removeClass('current');
+			$('.tab-content').removeClass('current');
+
+			$(this).addClass('current');
+			$("#"+tab_id).addClass('current');
+		});
+	});
+</script>
+
+
+
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

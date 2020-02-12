@@ -1,0 +1,40 @@
+.container-fluid{
+	padding: 5% 11%; 
+}
+
+body{
+
+}
+
+.text{
+	text-align: center;
+	position: relative;
+
+}
+
+/*.img-thumbnail{
+	width: 300px;
+}*/	
+
+.container {
+    width: 200px;
+    height: 120px;
+}
+
+/* resize images 
+.container img {
+    width: 100%;
+    height: auto;
+}*/
+
+#mainpage{
+	text-align:center;
+	background-image: url(images/clouds.jpg);
+	background-repeat:no-repeat;
+	background-color: transparent;
+}	
+
+#new{
+	text-align: left;
+
+}															
